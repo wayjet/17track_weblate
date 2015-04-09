@@ -1,0 +1,348 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DEditChannel.Error_KeyIsExists" xml:space="preserve">
+    <value>频道KEY已存在</value>
+  </data>
+  <data name="DSignIn.FUserName" xml:space="preserve">
+    <value>登录名</value>
+  </data>
+  <data name="DSignIn.FPassword" xml:space="preserve">
+    <value>密码</value>
+  </data>
+  <data name="DSignIn.Error_PendingActive" xml:space="preserve">
+    <value>用户账号未激活</value>
+  </data>
+  <data name="DSignIn.Error_PasswordIncorrect" xml:space="preserve">
+    <value>密码错误，登陆失败</value>
+  </data>
+  <data name="DSignIn.Error_AuditPending" xml:space="preserve">
+    <value>用户还处于待审核状态</value>
+  </data>
+  <data name="DSignIn.Error_AuditForbid" xml:space="preserve">
+    <value>用户审核未通过，如果有疑问请联系管理员</value>
+  </data>
+  <data name="DSignIn.Error_UserIsBlocked" xml:space="preserve">
+    <value>用户被临时冻结，请稍后再试</value>
+  </data>
+  <data name="DSignIn.Error_Block" xml:space="preserve">
+    <value>密码错误，帐号已被冻结5分钟</value>
+  </data>
+  <data name="DSignUp.FEmail" xml:space="preserve">
+    <value>电子邮箱</value>
+  </data>
+  <data name="DSignUp.FIpAddress" xml:space="preserve">
+    <value>IP地址</value>
+  </data>
+  <data name="DChangePassword.FOldPassword" xml:space="preserve">
+    <value>旧密码</value>
+  </data>
+  <data name="DChangePassword.FNewPassword" xml:space="preserve">
+    <value>新密码</value>
+  </data>
+  <data name="DChangePassword.FNewPassword2" xml:space="preserve">
+    <value>确认密码</value>
+  </data>
+  <data name="DChangePassword.Error_PasswordNotMatch" xml:space="preserve">
+    <value>密码不一致</value>
+  </data>
+  <data name="DChangePassword.Error_InvalidUserState" xml:space="preserve">
+    <value>当前用户不允许被修改密码</value>
+  </data>
+  <data name="DChangePassword.Error_IncorrectPassword" xml:space="preserve">
+    <value>密码错误</value>
+  </data>
+  <data name="DEditCmspgc.Error_TitleExists" xml:space="preserve">
+    <value>栏目名称重复</value>
+  </data>
+  <data name="DEditCmspgc.Error_KeyExists" xml:space="preserve">
+    <value>关键字重复</value>
+  </data>
+  <data name="DEditCmsdir.Error_NameExists" xml:space="preserve">
+    <value>分类名重复</value>
+  </data>
+  <data name="DEditCmsdir.Error_KeyExists" xml:space="preserve">
+    <value>关键字重复</value>
+  </data>
+  <data name="DEditProductBrand.Error_UQ_FName" xml:space="preserve">
+    <value>品牌名已存在</value>
+  </data>
+  <data name="DEditProductClass.FPropGroupList" xml:space="preserve">
+    <value>属性分组</value>
+  </data>
+  <data name="DEditProductClass.Error_FGroupKeyIsRepeat" xml:space="preserve">
+    <value>分组关键字重复</value>
+  </data>
+  <data name="DEditProductClass.Error_FGroupNameIsRepeat" xml:space="preserve">
+    <value>分组名重复</value>
+  </data>
+  <data name="DEditProductClass.Error_UQ_FKey" xml:space="preserve">
+    <value>类目关键字已存在</value>
+  </data>
+  <data name="DEditProductClass.Error_UQ_FName" xml:space="preserve">
+    <value>类目名称已存在</value>
+  </data>
+  <data name="DEditProductCategory.Error_UQ_FKey" xml:space="preserve">
+    <value>分类关键字已存在</value>
+  </data>
+  <data name="DEditProductCategory.Error_UQ_FName" xml:space="preserve">
+    <value>分类名称已存在</value>
+  </data>
+  <data name="DEditProductClassProp.Error_ProductClassNotFound" xml:space="preserve">
+    <value>产品分类不存在</value>
+  </data>
+  <data name="DEditProductClassProp.Error_UQ_FPropKey" xml:space="preserve">
+    <value>属性已存在</value>
+  </data>
+  <data name="DEditProductClassProp.Error_UQ_FName" xml:space="preserve">
+    <value>属性名已存在</value>
+  </data>
+  <data name="DEditProduct.FItemList" xml:space="preserve">
+    <value>销售属性</value>
+  </data>
+  <data name="DEditProduct.FPhotoList" xml:space="preserve">
+    <value>图片</value>
+  </data>
+  <data name="DEditProduct.FCategoryIdList" xml:space="preserve">
+    <value>所属分类</value>
+  </data>
+  <data name="DEditProduct.Error_FCategoryIdListRequired" xml:space="preserve">
+    <value>请选择分类</value>
+  </data>
+  <data name="DEditProduct.Error_FPhotoListRequired" xml:space="preserve">
+    <value>请配置图片属性</value>
+  </data>
+  <data name="DEditProduct.Error_FItemListRequired" xml:space="preserve">
+    <value>请配置销售属性</value>
+  </data>
+  <data name="DEditProduct.Error_UQ_FTitle" xml:space="preserve">
+    <value>${res:TProduct.FTitle}重复</value>
+  </data>
+  <data name="Validation.CreditCardError" xml:space="preserve">
+    <value>'{PropertyName}' is not a valid credit card number.</value>
+  </data>
+  <data name="Validation.EmailError" xml:space="preserve">
+    <value>'{PropertyName}' 邮箱格式错误</value>
+  </data>
+  <data name="Validation.EqualError" xml:space="preserve">
+    <value>'{PropertyName}' should be equal to '{ComparisonValue}'.</value>
+  </data>
+  <data name="Validation.ExactLengthError" xml:space="preserve">
+    <value>'{PropertyName}' must be {MaxLength} characters in length.</value>
+  </data>
+  <data name="Validation.ExclusiveBetweenError" xml:space="preserve">
+    <value>'{PropertyName}' must be between {From} and {To} (exclusive). You entered {Value}.</value>
+  </data>
+  <data name="Validation.InclusiveBetweenError" xml:space="preserve">
+    <value>'{PropertyName}' must be between {From} and {To}. You entered {Value}.</value>
+  </data>
+  <data name="Validation.GreaterThanError" xml:space="preserve">
+    <value>'{PropertyName}' must be greater than '{ComparisonValue}'.</value>
+  </data>
+  <data name="Validation.GreaterThanOrEqualError" xml:space="preserve">
+    <value>'{PropertyName}' must be greater than or equal to '{ComparisonValue}'.</value>
+  </data>
+  <data name="Validation.LengthError" xml:space="preserve">
+    <value>'{PropertyName}' must be between {MinLength} and {MaxLength} characters.</value>
+  </data>
+  <data name="Validation.LessThanError" xml:space="preserve">
+    <value>'{PropertyName}' must be less than '{ComparisonValue}'.</value>
+  </data>
+  <data name="Validation.LessThanOrEqualError" xml:space="preserve">
+    <value>'{PropertyName}' must be less than or equal to '{ComparisonValue}'.</value>
+  </data>
+  <data name="Validation.NotEmptyError" xml:space="preserve">
+    <value>'{PropertyName}' 必填。</value>
+  </data>
+  <data name="Validation.NotEqualError" xml:space="preserve">
+    <value>'{PropertyName}' should not be equal to '{ComparisonValue}'.</value>
+  </data>
+  <data name="Validation.NotNullError" xml:space="preserve">
+    <value>'{PropertyName}' 必填。</value>
+  </data>
+  <data name="Validation.PredicateError" xml:space="preserve">
+    <value>The specified condition was not met for '{PropertyName}'.</value>
+  </data>
+  <data name="Validation.RegexError" xml:space="preserve">
+    <value>'{PropertyName}' is not in the correct format.</value>
+  </data>
+  <data name="Validation.ScalePrecisionError" xml:space="preserve">
+    <value>'{PropertyName}' may not be more than {expectedPrecision} digits in total, with allowance for {expectedScale} decimals. {digits} digits and {actualScale} decimals were found.</value>
+  </data>
+  <data name="Validation.MyValidationSummary_HasError" xml:space="preserve">
+    <value>{ErrorCount} Error(s) occurred, please revise</value>
+  </data>
+  <data name="Validation.SelectRequried" xml:space="preserve">
+    <value>'{PropertyName}' Required</value>
+  </data>
+  <data name="TUser.FId" xml:space="preserve">
+    <value>账号ID</value>
+  </data>
+  <data name="TUser.FReferId" xml:space="preserve">
+    <value>推荐人ID</value>
+  </data>
+  <data name="TUser.FUserName" xml:space="preserve">
+    <value>登录名</value>
+  </data>
+  <data name="TUser.FDisplayName" xml:space="preserve">
+    <value>显示名</value>
+  </data>
+  <data name="TUser.FEmail" xml:space="preserve">
+    <value>电子邮箱</value>
+  </data>
+  <data name="TUser.FPassword" xml:space="preserve">
+    <value>密码</value>
+  </data>
+  <data name="TUser.FRegIp" xml:space="preserve">
+    <value>注册时使用的IP</value>
+  </data>
+  <data name="TUser.FRegUtcTime" xml:space="preserve">
+    <value>创建时间</value>
+  </data>
+  <data name="TUser.FSignInUtcTime" xml:space="preserve">
+    <value>最后登录时间</value>
+  </data>
+  <data name="TUser.FSignInIp" xml:space="preserve">
+    <value>最后登录IP</value>
+  </data>
+  <data name="TUser.FSignInTimes" xml:space="preserve">
+    <value>登陆次数</value>
+  </data>
+  <data name="TUser.FSignInFailTimes" xml:space="preserve">
+    <value>登录失败次数</value>
+  </data>
+  <data name="TUser.FUnlimitUtcTime" xml:space="preserve">
+    <value>解冻时间</value>
+  </data>
+  <data name="TUser.FState" xml:space="preserve">
+    <value>审核状态</value>
+  </data>
+  <data name="TUser.State.Forbid" xml:space="preserve">
+    <value>禁止登陆</value>
+  </data>
+  <data name="TUser.State.Passed" xml:space="preserve">
+    <value>允许登陆</value>
+  </data>
+  <data name="TUser.State.Pending" xml:space="preserve">
+    <value>待审核</value>
+  </data>
+  <data name="TUser.State.PendingActive" xml:space="preserve">
+    <value>等待激活</value>
+  </data>
+</root>
